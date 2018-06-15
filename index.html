@@ -369,7 +369,7 @@
                 
               
 
-              <time title="Created: 2018-06-15 14:22:11 / Modified: 14:35:31" itemprop="dateCreated datePublished" datetime="2018-06-15T14:22:11+08:00">2018-06-15</time>
+              <time title="Created: 2018-06-15 14:22:11 / Modified: 14:39:15" itemprop="dateCreated datePublished" datetime="2018-06-15T14:22:11+08:00">2018-06-15</time>
             
 
             
@@ -409,8 +409,8 @@
       
         
           
-          #核心脚本1System.out.println("");
-1234567891011121314151617181920212223242526272829303132333435#!/bin/bash if [ $# -eq 0 ];then    echo "./busy_thread.sh [pid] [num_of_top_busy_thread]"    exit -1fi pid=$1jstack_cmd="" if [[ $JAVA_HOME != "" ]]; then    jstack_cmd="$JAVA_HOME/bin/jstack"else    r=`which jstack 2&gt;/dev/null`    if [[ $r != "" ]]; then        jstack_cmd=$r    else        echo "can not
+          #核心脚本利用java自带的jstack等功能查看某个进程下最占用CPU的线程，可以非常方便的去排查cpu百分百、load过高等问题。
+1234567891011121314151617181920212223242526272829303132333435#!/bin/bash if [ $# -eq 0 ];then    echo "./busy_thread.sh [pid] [num_of_top_busy_thread]"    exit -1fi pid=$1jstack_cmd="" if [[ $JAVA_HOME != "" ]]; then    jstack_cmd="$JAVA_HOME/bin/jstack"else    r=`which jstack 2&gt;/dev/null`    if [[ $r != "" ]]; then        jsta
           ...
           <!--noindex-->
           <div class="post-button text-center">
