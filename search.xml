@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[ThreadLocal详解]]></title>
     <url>%2F2018%2F06%2F04%2FThreadLocal%E8%AF%A6%E8%A7%A3%2F</url>
-    <content type="text"><![CDATA[TheadLoacl实现原理Thead整体结构示意图如下： TheadLoacl与内存泄露]]></content>
+    <content type="text"><![CDATA[ThreadLoacl实现原理Thread整体结构示意图如下： ThreadLoacl与内存泄露]]></content>
       <tags>
         <tag>threadlocal</tag>
       </tags>
